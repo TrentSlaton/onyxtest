@@ -702,6 +702,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -1146,6 +1150,10 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .sm\:pl-6 {
+    padding-left: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1198,6 +1206,10 @@ video {
 
   .lg\:pl-20 {
     padding-left: 5rem;
+  }
+
+  .lg\:pl-8 {
+    padding-left: 2rem;
   }
 }
 
